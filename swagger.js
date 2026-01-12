@@ -4,7 +4,7 @@ const options = {
     definition: {
         openapi: "3.0.0",
         info: {
-            title: "API Test Kandidat",
+            title: "API Kandidat Test",
             version: "1.0.0",
             description: "API untuk manajemen kategori, produk, dan stok",
         },

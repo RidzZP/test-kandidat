@@ -27,7 +27,7 @@ app.use("/api/stok", require("./routes/stok"));
 // Root endpoint
 app.get("/", (req, res) => {
     res.json({
-        message: "API Test Kandidat",
+        message: "API Kandidat Test",
         documentation: "/api-docs",
     });
 });
