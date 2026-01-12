@@ -7,7 +7,7 @@ const upload = require("../config/multer");
 // Helper function untuk generate foto URL
 const generateFotoUrl = (req, fotoFilename) => {
     if (!fotoFilename) return null;
-    return `${req.protocol}://${req.get("host")}/uploads/${fotoFilename}`;
+    return `https://test-kandidat.eurekagroup.id/uploads/${fotoFilename}`;
 };
 
 /**
